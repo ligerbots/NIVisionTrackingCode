@@ -11,6 +11,27 @@
 	extern "C" {
 #endif
 
+/**
+ * Processes image with following parameters:
+ * 
+ * Color Threshold
+ * HSL
+ * H: 0 - 255
+ * S: 71 - 255
+ * L: 184 - 255
+ * 
+ * Lookup Table
+ * Equalize
+ * 
+ * Lookup Table
+ * Reverse
+ * 
+ * Shape Detection
+ * Shape: Lines
+ * 
+ */
+
+
 int IVA_ProcessImage(Image *image);
 
 #ifdef __cplusplus
